@@ -1,0 +1,119 @@
+
+
+
+.ad .slide-ad { height: calc(100vh - 140px); min-height: 400px; } 
+.ad img { object-fit: cover; width: 100%; height: 100%; } 
+.ad a { position: relative; display: block; height: inherit; } 
+.ad .text-box { position: absolute; left: 0; bottom: 0; padding: 96px 36px; box-sizing: border-box; color: #fff; font-weight: 400; font-size: 17px; line-height: 1.4; } 
+.ad .text-box .title { display: block; font-size: 30px; line-height: 1.25; letter-spacing: -1.3px; margin-bottom: 15px; font-weight: bold; } 
+.ad .swiper-pagination { bottom: 37px; } 
+.ad .swiper-pagination .swiper-pagination-bullet {border-radius:0; width: 20px; height: 2px; background: #fff; margin: 0; } 
+
+
+
+
+
+
+
+/* */
+.product { } 
+.product h2 { padding: 50px 16px 22px; font-size: 20px; line-height: 29px; color: #333; letter-spacing: -0.05em; font-weight: 700; } 
+.product .link-all { display: block; height: 52px; line-height: 52px; border: 1px solid #e0e0e0; box-sizing: border-box; background: #fff; font-size: 15px; color: #222; font-weight: 500; text-align: center; margin: 0 30px; } 
+.product .link-all::after { content: ''; margin-left: 5px; padding: 5px; background: url(../images/next2.png) no-repeat; background-size: 23px auto; background-position: center; width: 23px; height: 23px; } 
+
+/* common */
+.product-list { } 
+.product-list .product-item { } 
+.product-list .img-box { position: relative; } 
+.product-list .img-box .img { width: 100%; } 
+.product-list .img-box .badge { max-width: 20%; min-width: 40px; position: absolute; top: 0; right: 0; } 
+.product-list .img-box .badge img { width: 100%; } 
+.product-list .text-box { padding: 15px 5% 0; } 
+.product-list .text-box .review { color: #8e1f29; padding-left: 0px; font-weight: 600; font-size: 13px; line-height: 13px; } 
+.product-list .text-box .name { padding: 10px 0; color: #333; font-size: 14px; line-height: 17px; } 
+.product-list .text-box .price { display: flex; gap: 5px; } 
+.product-list .text-box .discount { color: #8e1f29; font-weight: 500; font-size: 15px; line-height: 16px; vertical-align: top; } 
+.product-list .text-box .curr { color: #333; font-size: 15px; line-height: 16px; font-weight: 500; letter-spacing: -0.03em; vertical-align: top; } 
+.product-list .text-box .ori { font-size: 13px; line-height: 18px; font-weight: 400; color: #8d8d8d; text-decoration: line-through; } 
+
+/* style1 */
+.product-list.list1 { display: flex; flex-wrap: wrap; justify-content: space-between; } 
+.product-list.list1 .product-item { width: calc(50% - 5px); padding-bottom: 50px; } 
+
+/* style2 */
+.product-list.list2 { padding: 0 16px; } 
+.product-list.list2 .product-item { padding: 20px 0; } 
+.product-list.list2 .product-item > a { display: flex; } 
+.product-list.list2 .product-item+.product-item { border-top: 1px solid #eee; } 
+.product-list.list2 .img-box { width: 110px; } 
+.product-list.list2 .text-box { flex: 1; padding: 0 28px; } 
+
+
+
+
+
+
+
+
+/* 쿠폰 영역 */
+
+
+.containar .coupon { margin: 50px 0 20px 0; } 
+.containar .coupon img { object-fit: cover; width: 100%; } 
+
+
+
+/* 룩북 메인 사진 밑에 글 */
+
+.sc-lookbook .front-area { } 
+.sc-lookbook .front-area .text-box { padding: 20px 16px 20px; box-sizing: border-box; } 
+.sc-lookbook .front-area .title { font-size: 26px; line-height: 35px; color: #333; letter-spacing: -0.05em; font-weight: 700; } 
+.sc-lookbook .front-area .desc { padding: 14px 0 28px; font-size: 16px; line-height: 26px; letter-spacing: -0.05em; color: #333; font-weight: 400; } 
+.sc-lookbook .front-area span { display: inline-block; background-color: #1e1e1e; border-radius: 2px; border: 1px solid #1e1e1e; box-sizing: border-box; color: #fff; padding: 8px 47px 8px 18px; font-size: 14px; line-height: 20px; letter-spacing: -0.03em; font-weight: 500; background-image: url(../images/next1-1.png); background-repeat: no-repeat; background-size: 15px auto; background-position: calc(100% - 18px) center; } 
+
+
+
+
+
+
+/* 스토리 구역 */
+.sc-story { padding: 56px 20px; margin: 70px 0 20px; background-color: #C86733; box-sizing: border-box; color: #fff; } 
+.sc-story a h2 { font-size: 18px; letter-spacing: -0.5px; margin: 0 auto 10px; font-weight: 400; display: inline-block; border-bottom: 1.5px solid #fff; padding-bottom: 5px; line-height: 1.2; } 
+.sc-story .title { font-size: 30px; line-height: 36px; letter-spacing: -0.03em; font-weight: 700; } 
+.sc-story .desc { padding: 10px 0 5px; font-size: 12px; line-height: 1.4; letter-spacing: -0.02em; font-weight: 400; } 
+.sc-story .detail { display: inline-block; width: 100px; margin-top: 20px; padding: 10px 0; font-size: 12px; line-height: 14px; letter-spacing: -0.03em; font-weight: 500; text-align: center; box-sizing: border-box; border: 1px solid #fff; } 
+
+
+
+
+
+/* 레깅스 브라탑 세트 슬라이드 구간 */
+
+.sc-cate { } 
+.sc-cate .group-product { padding: 0 20px; position: relative; margin-bottom: 20px; } 
+.sc-cate .group-product h3 { display: inline-block; padding: 30px 0; font-size: 20px; line-height: 24px; color: #333; font-weight: 600; position: relative; } 
+.sc-cate .group-product .all { position: absolute; top: 35px; right: 40px; font-size: 14px; font-weight: 400; } 
+.sc-cate .group-product .all::after { content: ''; display: inline-block; width: 15px; height: 11px; vertical-align: -2px; margin-left: 3px; margin-bottom: 2px; background-image: url(../images/next1-1.png); background-repeat: no-repeat; background-size: 15px auto; background-position: center; } 
+
+
+/* 멤버쉽 스토어 구역  */
+.sc-info{padding: 65px 20px;color: #fff;}
+.sc-info.membership { background: url(https://m.andar.co.kr/web/andar/banner/member/20221017/banner-mo.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; } 
+.sc-info.store { margin-top: 10px;background: url(https://m.andar.co.kr/web/andar/banner/member/20221017/banner-mo.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; } 
+.sc-info .title{font-size: 26px;
+    line-height: 31px;
+    font-weight: 700;
+    letter-spacing: -0.02em;} 
+.sc-info .desc{font-size: 15px;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    padding: 15px 0 30px;
+    box-sizing: border-box;} 
+.sc-info .detail{border: 1px solid #fff;
+    padding: 7px 25px 8px;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.03em;
+    display: inline-block;
+    box-sizing: border-box;} 

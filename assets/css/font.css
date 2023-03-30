@@ -1,0 +1,67 @@
+/* 
+    *ttf - 투르타입 -저버전
+    otf - 오픈투르타입 -저버전
+    eot - 익스플로러 지원
+    *woff - 웹용폰트(모던브라우저 최신브라우저 상위버전)
+    *woff2 - 웹용폰트(모던브라우저 최신브라우저 상위버전) woff -> 50%압축된파일
+
+    지원범위 참고
+    https://aboooks.tistory.com/153
+    버전참고
+    https://caniuse.com/?search=display
+
+    100
+    200
+    *300 light
+    *400 regular
+    *500 medium
+    *600 semi-bold
+    *700 bold
+    *800 extra-bold
+    900 black
+*/
+
+
+
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url(../font/NotoSansKR-Light-Hestia.woff) format('woff');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url(../font/NotoSansKR-Regular-Hestia.woff) format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url(../font/NotoSansKR-Medium-Hestia.woff) format('woff');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NotoSansKR';
+    src: url(../font/NotoSansKR-Bold-Hestia.woff) format('woff');
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: 'gilroy';
+    src: url(../font/Gilroy-Regular.woff2) format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'gilroy';
+    src: url(../font/Gilroy-Medium.woff2) format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'gilroy';
+    src: url(../font/Gilroy-SemiBold.woff2) format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'gilroy';
+    src: url(../font/Gilroy-Bold.woff2) format('woff2');
+    font-weight: 700;
+}
